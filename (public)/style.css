@@ -2,12 +2,10 @@ html,
 body {
     text-align-last: center;
     height: 100%;
-    background-color: #333;
 }
 
 h1 {
     font-size: 25px;
-    font-family: Palatino;
 }
 
 #msgBox {
