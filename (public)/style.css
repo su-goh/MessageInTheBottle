@@ -24,13 +24,9 @@ h1 {
 }
 
 #logo {
+    margin-top: 10px;
     height: 100px;
 }
-
-#submitBtn {
-    margin-right: 10px;
-}
-
 
 #navbar {
     position: fixed;
@@ -42,3 +38,22 @@ h1 {
     background-size: 100%;
     padding: 5px;
 }
+
+#submitBtn, #walkBtn {
+    background-color:black; 
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+#submitBtn:hover, #walkBtn:hover {
+    font-family: Roboto;
+    font: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 58, 58);
+    border: .05rem solid rgb(27, 136, 103);
+}
+

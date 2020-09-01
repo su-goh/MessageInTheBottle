@@ -9,4 +9,5 @@ submitBtn.addEventListener('click', (e) => {
         msg: msg.value
     })
     document.getElementById('msgForm').reset();
+    window.alert("Your message is floating in the ocean.")
 })
