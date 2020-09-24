@@ -26,6 +26,7 @@ const submitMessage = () => {
     rootRef.child(autoId).set ({
         msg: msg.value
     });
-    console.log("WHere");
-    $('#submittedModal').modal(options)
+
+    document.getElementById('msgForm').reset();
+    $('#submittedModal').modal(focus);
 }
