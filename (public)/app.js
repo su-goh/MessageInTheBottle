@@ -26,7 +26,6 @@ const submitMessage = () => {
     rootRef.child(autoId).set ({
         msg: msg.value
     });
-
-    document.getElementById('msgForm').reset();
-    window.alert("Your message is floating in the ocean.");
+    console.log("WHere");
+    $('#submittedModal').modal(options)
 }
